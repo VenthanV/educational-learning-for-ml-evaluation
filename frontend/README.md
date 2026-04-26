@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-npx sv@0.15.1 create --template demo --types jsdoc --add prettier eslint tailwindcss="plugins:typography,forms" vitest="usages:unit,component" --install npm frontend
+npx sv@0.15.1 create --template minimal --types jsdoc --add prettier eslint vitest="usages:unit,component" tailwindcss="plugins:typography,forms" --install npm frontend
 ```
 
 ## Developing
