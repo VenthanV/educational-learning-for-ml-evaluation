@@ -1,0 +1,22 @@
+{
+  "ransomware": {
+    "title": "Der Ransomware-Scanner",
+    "description": "Accuracy-Falle wird aufgezeigt indem 99% der Dateine harmlos sind aber 1% Viren",
+    "file_path": "scenario/ransomware.csv"
+  },
+  "firewall": {
+    "title": "Die nervige Firewall",
+    "description": "90% der Zugriffe sind erlaubt, aber 10% hackerangriffe ?"
+    "file_path": "scenario/firewall.csv"
+  },
+  "phishing": {
+    "title": "Der Phishing-Filter",
+    "description": "schwellenwerte testen",
+    "file_path": "scenario/phishing.csv"
+  },
+  "biometrie": {
+    "title": "Biometrischer Serverraum",
+    "description": "Nur 5 Admins dürfen rein, aber 10.000 Angreifer versuchen, das System auszutricksen, fidne den perfekten tradeoff",
+    "file_path": "scenario/biometrie.csv"
+  }
+}

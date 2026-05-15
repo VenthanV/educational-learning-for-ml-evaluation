@@ -13,10 +13,10 @@ app.add_middleware(
 )
 
 
-
 class ModelRequest(BaseModel):
     y_true: list[int]
     y_pred: list[int]
+
 
 @app.get("/")
 def read_root():
@@ -29,5 +29,5 @@ def calculate_metrics(data: ModelRequest):
         "accuracy": 0.95,
         "precision": 0.82,
         "recall": 0.99,
-        "received_data_points": len(data.y_true)
+        "received_data_points": len(data.y_true),
     }
