@@ -6,7 +6,7 @@
   },
   "firewall": {
     "title": "Die nervige Firewall",
-    "description": "90% der Zugriffe sind erlaubt, aber 10% hackerangriffe ?"
+    "description": "90% der Zugriffe sind erlaubt, aber 10% hackerangriffe ?",
     "file_path": "scenario/firewall.csv"
   },
   "phishing": {
